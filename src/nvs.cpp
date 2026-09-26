@@ -21,7 +21,7 @@ settings_t settings;
 settings_t defaultSettings = {
     0,
     0,
-    0,
+    912,
     TURNS_PER_KWH,
     BACKUP_CYCLE_MIN,
 #ifdef CALCULATE_CURRENT_POWER
