@@ -24,7 +24,7 @@
 
 // this value has to be set according
 // to the specs of your ferraris meter
-#define TURNS_PER_KWH 96
+#define TURNS_PER_KWH 100
 
 // calculate current power consumption (watts) from previous marker interval;
 // when the ferraris disk rotates rather slowly on low power consumption
@@ -40,7 +40,7 @@
 #define MQTT_PUBLISH_JSON
 #define MQTT_BROKER_HOSTNAME "mqtt.home"
 #define MQTT_BROKER_PORT 1883
-#define MQTT_BASE_TOPIC "MainPowerMeter"
+#define MQTT_BASE_TOPIC "MainGasMeter"
 #define MQTT_PUBLISH_INTERVAL_SEC 60
 
 // uncomment to enable MQTT authentication
@@ -68,7 +68,7 @@
 // optional preset power meter's id (e.g. number of ferraris meter)
 // defaults to last 3 octets of ESP8266's MAC address
 // (string with max. 16 characters)
-#define SYSTEM_ID "116018"
+#define SYSTEM_ID "2200001146"
 
 // the following settings should be changed with care
 // better use web ui (expert settings) for fine-tuning 

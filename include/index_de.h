@@ -19,7 +19,7 @@ const char HEADER_html[] PROGMEM = R"=====(
 <meta name="author" content="(c) 2019-2023 Lars Wessels, modifications 2022-2026 Dominic Hitschel">
 <meta name="description" content="https://github.com/domhit/esp8266-wifi-power-meter/">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
-<title>Wifi Stromz&auml;hler __SYSTEMID__</title>
+<title>Wifi Gasz&auml;hler __SYSTEMID__</title>
 <style>
 body{text-align:center;font-family:verdana;background:#252525;color:white;}
 div,fieldset,input,select{padding:5px;font-size:1em;}
@@ -194,7 +194,7 @@ function getReadings() {
 <body onload="hideMessages(); getReadings(); updateUI();">
 <div style="text-align:left;display:inline-block;min-width:340px;">
 <div style="text-align:center;">
-<h2 id="heading">Stromz&auml;hler __SYSTEMID__</h2>
+<h2 id="heading">Gasz&auml;hler __SYSTEMID__</h2>
 <div id="message" style="display:none;margin-top:10px;color:red;text-align:center;font-weight:bold;max-width:335px">
 <span id="invalidThreshold" style="display:none">Ungültiger Schwellwert</span>
 <span id="thresholdCalculation" style="display:none">Schwellwertmessung, bitte warten</span>
