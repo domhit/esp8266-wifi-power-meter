@@ -16,7 +16,7 @@
 #define _CONFIG_H
 
 // uncomment for german ui, defaults to english
-#define LANGUAGE_EN
+// #define LANGUAGE_EN
 
 //
 // the following options can also be set in web ui
@@ -24,7 +24,7 @@
 
 // this value has to be set according
 // to the specs of your ferraris meter
-#define TURNS_PER_KWH 75
+#define TURNS_PER_KWH 96
 
 // calculate current power consumption (watts) from previous marker interval;
 // when the ferraris disk rotates rather slowly on low power consumption
@@ -38,9 +38,9 @@
 // publish power meter readings via MQTT (optional)
 //#define MQTT_ENABLE
 #define MQTT_PUBLISH_JSON
-#define MQTT_BROKER_HOSTNAME "__mqtt_broker__"
+#define MQTT_BROKER_HOSTNAME mqtt.home
 #define MQTT_BROKER_PORT 1883
-#define MQTT_BASE_TOPIC "__mqtt_topic__"
+#define MQTT_BASE_TOPIC MainPowerMeter
 #define MQTT_PUBLISH_INTERVAL_SEC 60
 
 // uncomment to enable MQTT authentication
@@ -52,7 +52,7 @@
 //#define MQTT_USE_TLS
 
 // uncomment to enable Home Assistant MQTT auto discovery
-//#define MQTT_HA_AUTO_DISCOVERY
+#define MQTT_HA_AUTO_DISCOVERY
 
 // switch off Wifi inbetween MQTT messages (95mA -> 35mA)
 // If enabled, you cannot set the MQTT publish interval below
@@ -68,7 +68,7 @@
 // optional preset power meter's id (e.g. number of ferraris meter)
 // defaults to last 3 octets of ESP8266's MAC address
 // (string with max. 16 characters)
-//#define SYSTEM_ID "12345678"
+#define SYSTEM_ID "116018"
 
 // the following settings should be changed with care
 // better use web ui (expert settings) for fine-tuning 

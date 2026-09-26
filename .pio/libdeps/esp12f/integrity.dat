@@ -1,0 +1,6 @@
+webserver = ESP8266WebServer
+mavg = movingAvg
+arduinojson = ArduinoJson@>=6
+wifimanager = WiFiManager
+mqtt = PubSubClient
+eeprom = EEPROM_Rotate

@@ -16,12 +16,12 @@ const char HEADER_html[] PROGMEM = R"=====(
 <html lang="de">
 <head>
 <meta charset="utf-8">
-<meta name="author" content="(c) 2019-2023 Lars Wessels">
-<meta name="description" content="https://github.com/lrswss/esp8266-wifi-power-meter/">
+<meta name="author" content="(c) 2019-2023 Lars Wessels, modifications 2022-2026 Dominic Hitschel">
+<meta name="description" content="https://github.com/domhit/esp8266-wifi-power-meter/">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
 <title>Wifi Stromz&auml;hler __SYSTEMID__</title>
 <style>
-body{text-align:center;font-family:verdana;background:white;}
+body{text-align:center;font-family:verdana;background:#252525;color:white;}
 div,fieldset,input,select{padding:5px;font-size:1em;}
 h2{margin-top:2px;margin-bottom:8px;width:340px}
 h3{font-size:0.8em;margin-top:-2px;margin-bottom:2px;font-weight:lighter;}
@@ -31,8 +31,8 @@ input{width:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-si
 input[type=checkbox],input[type=radio]{width:1em;margin-right:6px;vertical-align:-1px;}
 p,input[type=text]{font-size:0.96em;}
 select{width:100%;}
-button{border:0;border-radius:0.3rem;background:#009374;color:#fff;line-height:2.4rem;font-size:1.2rem;width:100%;-webkit-transition-duration:0.4s;transition-duration:0.4s;cursor:pointer;}
-button:hover{background:#007364;}
+button{border:0;border-radius:0.3rem;background:#1fa3ec;color:#fff;line-height:2.4rem;font-size:1.2rem;width:100%;-webkit-transition-duration:0.4s;transition-duration:0.4s;cursor:pointer;}
+button:hover{background:#0e70a4;}
 button:focus {outline:0;}
 td{text-align:right;}
 .bred{background:#d43535;}
@@ -811,10 +811,10 @@ const char IMPORT_ERR_html[] PROGMEM = R"=====(
 const char FOOTER_html[] PROGMEM = R"=====(
 <div class="footer"><hr/>
 <p style="float:left;margin-top:-2px">
-	<a href="https://github.com/lrswss/esp8266-wifi-power-meter" title="build on __BUILD__">Firmware __FIRMWARE__
+	<a href="https://github.com/domhit/esp8266-wifi-power-meter" title="build on __BUILD__">Firmware __FIRMWARE__
 </p>
 <p style="float:right;margin-top:-2px">
-	<a href="mailto:software@bytebox.org">&copy; 2019-2023 Lars Wessels</a>
+	<a href="mailto:dominic.hitschel@gmail.com">&copy; 2022-2026 Dominic Hitschel</a>
 </p>
 <div style="clear:both;"></div>
 </div>
